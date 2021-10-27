@@ -117,7 +117,7 @@ run().catch(console.dir)
 app.get('/', (req, res)=>{
     res.send('Server Running node-mongo-CRUD');
 })
-app.get('/hello', (req, res)=>{
+app.get('/hellow', (req, res)=>{
     res.send(' Running SERver');
 })
 
