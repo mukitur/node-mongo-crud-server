@@ -114,7 +114,10 @@ run().catch(console.dir)
 //pass: imO3PXjc5gcYIgSE
 
 app.get('/', (req, res)=>{
-    res.send('Hello Node Mongo CRUD');
+    res.send('Server Running node-mongo-CRUD');
+})
+app.get('/', (req, res)=>{
+    res.send(' Running SERver');
 })
 
 app.listen(port, () =>{
